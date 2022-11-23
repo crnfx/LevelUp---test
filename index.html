@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="shortcut icon" href="img/bakl.svg" type="image/x-icon">
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css" />
+  <link rel="stylesheet" href="css/jquery.countdown.css">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/media.css">
+  <title>LevelUp</title>
+</head>
+
+<body>
+  <main class="main">
+    <section class="hero">
+      <video src="media/iceland.mp4" autoplay muted loop class="hero__media"></video>
+      <div class="container">
+        <div class="hero__wrapper">
+          <h1 class="hero__title">LevelUp&nbsp;- продукт для повышения потенции</h1>
+          <div class="hero__inner flex">
+            <div class="hero__product flex">
+              <div class="hero__image">
+                <img src="img/prod.png" alt="LevelUp - продукт для повышения потенции" class="hero__img">
+              </div>
+              <a href="#order" class="hero__link">Заказать</a>
+            </div>
+            <div class="hero__characteristics flex">
+              <ul class="list-reset hero__list">
+                <li class="hero__item">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolorem quam cum iure
+                  vero voluptas qui minima natus facere, dolores, ipsa provident? Harum, illo illum? Officia impedit
+                  aliquid beatae nemo totam!</li>
+                <li class="hero__item">Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero quaerat tenetur
+                  velit, qui molestiae laudantium facere itaque eos, optio illum tempora nulla placeat reprehenderit
+                  sequi et fugiat. Sapiente, architecto voluptatem!</li>
+                <li class="hero__item">Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit voluptates
+                  accusamus at excepturi dignissimos! Delectus fugit culpa ad temporibus repellat tenetur, officia
+                  corporis voluptatum? Deserunt culpa esse voluptatum magni et.</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="ingredients">
+      <div class="container">
+        <h2 class="ingridients__title">Состав продукта</h2>
+        <div class="ingredients__wrapper flex">
+          <ul class="list-reset ingridients__list">
+            <li class="ingridients__item flex">
+              <img src="img/blueberry.jpg" alt="Черника" class="ingridients__img">
+              <p class="ingridients__description">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+            </li>
+            <li class="ingridients__item flex">
+              <img src="img/cucumber.jpg" alt="Огурец" class="ingridients__img">
+              <p class="ingridients__description">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+            </li>
+            <li class="ingridients__item flex">
+              <img src="img/tomato.jpg" alt="Томат" class="ingridients__img">
+              <p class="ingridients__description">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+            </li>
+          </ul>
+          <div class="ingredients__image flex">
+            <img src="img/prod.png" alt="LevelUp - продукт для повышения потенции" class="ingredients__picture">
+            <a href="#order" class="ingredients__link">Заказать</a>
+          </div>
+          <ul class="list-reset ingridients__list">
+            <li class="ingridients__item flex">
+              <img src="img/watermellow.jpg" alt="Арбуз" class="ingridients__img">
+              <p class="ingridients__description">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+            </li>
+            <li class="ingridients__item flex">
+              <img src="img/redis.jpg" alt="Редис" class="ingridients__img">
+              <p class="ingridients__description">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+            </li>
+            <li class="ingridients__item flex">
+              <img src="img/strawberry.jpg" alt="Клубника" class="ingridients__img">
+              <p class="ingridients__description">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+            </li>
+          </ul>
+          <ul class="list-reset ingridients__list ingridients__list--hidden">
+            <li class="ingridients__item flex">
+              <img src="img/blueberry.jpg" alt="Черника" class="ingridients__img">
+              <p class="ingridients__description">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+            </li>
+            <li class="ingridients__item flex">
+              <img src="img/cucumber.jpg" alt="Огурец" class="ingridients__img">
+              <p class="ingridients__description">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+            </li>
+            <li class="ingridients__item flex">
+              <img src="img/tomato.jpg" alt="Томат" class="ingridients__img">
+              <p class="ingridients__description">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+            </li>
+            <li class="ingridients__item flex">
+              <img src="img/watermellow.jpg" alt="Арбуз" class="ingridients__img">
+              <p class="ingridients__description">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+            </li>
+            <li class="ingridients__item flex">
+              <img src="img/redis.jpg" alt="Редис" class="ingridients__img">
+              <p class="ingridients__description">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+            </li>
+            <li class="ingridients__item flex">
+              <img src="img/strawberry.jpg" alt="Клубника" class="ingridients__img">
+              <p class="ingridients__description">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </section>
+    <section class="comments">
+      <div class="container">
+        <h2 class="comments__title">Отзывы клиентов</h2>
+        <div class="comments__wrapper flex">
+          <div class="swiper mySwiper comments__swiper flex">
+            <ul class="list-reset swiper-wrapper comments__wrapper">
+
+              <li class="swiper-slide events__slide flex">
+                <article class="events__card comments__card flex">
+                  <div class="events__picture comments__picture">
+                    <img src="img/commentator.jpg" alt="Фотография комментатора" class="comments__avatar">
+                  </div>
+                  <div class="events__content comments__content flex">
+                    <h3 class="comments__name">Roman</h3>
+                    <p class="comments__descr">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Repellat, quasi.
+                      Reiciendis cumque repellat repudiandae optio autem aut aliquid, libero inventore.</p>
+                  </div>
+                </article>
+              </li>
+
+              <li class="swiper-slide events__slide flex">
+                <article class="events__card comments__card flex">
+                  <div class="events__picture comments__picture">
+                    <img src="img/commentator.jpg" alt="Фотография комментатора" class="comments__avatar">
+                  </div>
+                  <div class="events__content comments__content flex">
+                    <h3 class="comments__name">Roman</h3>
+                    <p class="comments__descr">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Repellat, quasi.
+                      Reiciendis cumque repellat repudiandae optio autem aut aliquid, libero inventore.</p>
+                  </div>
+                </article>
+              </li>
+
+              <li class="swiper-slide events__slide flex">
+                <article class="events__card comments__card flex">
+                  <div class="events__picture comments__picture">
+                    <img src="img/commentator.jpg" alt="Фотография комментатора" class="comments__avatar">
+                  </div>
+                  <div class="events__content comments__content flex">
+                    <h3 class="comments__name">Roman</h3>
+                    <p class="comments__descr">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Repellat, quasi.
+                      Reiciendis cumque repellat repudiandae optio autem aut aliquid, libero inventore.</p>
+                  </div>
+                </article>
+              </li>
+
+            </ul>
+          </div>
+          <div class="swiper-pagination comments__pagination"></div>
+        </div>
+
+      </div>
+    </section>
+    <section class="promo">
+      <div class="container">
+        <h2 class="promo__title">Описание продукта</h2>
+        <div class="promo__wrapper">
+          <div class="promo__inner flex">
+            <div class="promo__picture flex">
+              <img src="img/doctorProduct.png" alt="Доктор с продуктом" class="promo__img">
+              <a href="#order" class="promo__link">Заказать</a>
+            </div>
+            <div class="promo__info">
+              <p class="promo__descr">Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio doloremque
+                recusandae possimus odio quibusdam. Tempora nostrum fuga incidunt rerum velit, temporibus iusto, nihil,
+                illo quaerat sint consequatur nesciunt optio similique!</p>
+            </div>
+          </div>
+          <ol class="promo__list flex">
+            <li class="promo__item">Lorem ipsum dolor sit amet consectetur adipisicing elit.</li>
+            <li class="promo__item">Lorem ipsum dolor sit amet consectetur adipisicing elit.</li>
+            <li class="promo__item">Lorem ipsum dolor sit amet consectetur adipisicing elit.</li>
+          </ol>
+        </div>
+      </div>
+    </section>
+    <section class="order" id="order">
+      <div class="container">
+        <h2 class="order__title">LevelUp</h2>
+        <div class="order__timer counter"></div>
+        <div class="order__wrapper flex">
+          <div class="order__info">
+            <div class="order__image flex">
+              <img src="img/prod.png" alt="LevelUp - продукт для повышения потенции" class="order__img">
+            </div>
+            <div class="order__prices flex">
+              <span class="order__oldprice">Старая цена: <s>5000 р.</s></span>
+              <span class="order__newprice">Новая цена: 1999 р.</span>
+            </div>
+          </div>
+          <form action="#" method="POST" enctype="multipart/form-data" class="order__form flex">
+            <label for="name" class="order__label">
+              <input name="name" type="text" placeholder="Введите Ваше имя*" class="order__input input-name"
+                data-validate-field="name" id="name" required>
+              <span class="order__alert">Например: Роман</span>
+            </label>
+            <label for="tel" class="order__label">
+              <input name="tel" type="number" placeholder="Введите Ваш номер телефона*" data-validate-field="tel"
+                data-validate-rules="phone" id="tel" class="order__input" required>
+              <span class="order__alert">Например: +7-999-999-99-99</span>
+            </label>
+            <button class="btn-reset order__btn">Заказать</button>
+          </form>
+        </div>
+      </div>
+    </section>
+  </main>
+  <script src="https://code.jquery.com/jquery-3.6.0.slim.min.js"></script>
+  <script src="js/countdowntimer.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
+  <script src="js/index.js"></script>
+  <script src="js/start-timer.js"></script>
+</body>
+
+</html>
